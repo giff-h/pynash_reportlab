@@ -1,7 +1,7 @@
 from reportlab.pdfgen.canvas import Canvas
 
 # This is your PDF writer
-pdf = Canvas("./getting_started.pdf")
+pdf = Canvas("./start.pdf")
 
 # Everything is coordinate based
 pdf.drawString(100, 100, "Hello, World!")
