@@ -16,3 +16,6 @@ ul = getSampleStyleSheet()["UnorderedList"]
 
 # dict
 print(getSampleStyleSheet().byName)
+
+# [red, green, blue, chartreuse, plum, darkorchid, Color, HexColor, CMYKColor, letter, legal, elevenSeventeen, inch, cm,
+#  mm, ParagraphStyle, ListStyle]
