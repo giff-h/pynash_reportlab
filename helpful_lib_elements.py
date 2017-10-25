@@ -1,8 +1,8 @@
 from reportlab.lib.colors import red, green, blue, \
-    chartreuse, plum, darkorchid, Color, HexColor, CMYKColor
+    Color, HexColor, CMYKColor
+from reportlab.lib.units import inch, cm, mm
 from reportlab.lib.pagesizes import letter, legal, \
     elevenSeventeen
-from reportlab.lib.units import inch, cm, mm
 from reportlab.lib.styles import getSampleStyleSheet, \
     ParagraphStyle, ListStyle
 
