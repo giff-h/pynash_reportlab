@@ -6,7 +6,8 @@ pdf = Canvas("./start.pdf")
 # Everything is coordinate based
 pdf.drawString(100, 100, "Hello, World!")
 
-# Writes everything to a page, then moves onto another one
+# Writes everything to a page,
+# then moves onto another one
 pdf.showPage()
 
 # Performs the write to disk
